@@ -75,7 +75,7 @@ label {
   gap: 1em;
 }
 
-.projects {
+.projects article {
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 1em;
@@ -88,6 +88,45 @@ article {
   gap: 1em;
 }
 
-article h2 {
+.projects article h2 {
   margin: 0;
+}
+
+
+.resume h1, h2, h3 {
+  color: var(--color-accent);
+}
+
+article {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-left: 3px solid var(--color-accent);
+    border-bottom: 1px solid lightgray;
+}
+
+article h3 {
+    color: var(--color-accent);
+    font-size: 1.5em;
+}
+
+article section {
+    margin-bottom: 1.5em;
+}
+
+article h4 {
+    margin-bottom: 0.3em;
+}
+
+article li {
+    margin-bottom: 0.5em;
+    line-height: 1.5;
+}
+
+article a {
+    color: var(--color-accent);
+}
+
+article time {
+    color: gray;
 }
