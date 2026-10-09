@@ -3,12 +3,91 @@ body {
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 20px;
+}
+
+nav{
+  display: flex;
+  margin-bottom: 1em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200)
+
+}
+
+nav a{
+  flex: 1;
+}
+
+nav a{
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding: 0.067em;
+
+}
+
+nav a:hover{
+  border-bottom: 0.25em solid var(--color-accent);
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+nav a.current{
+  border-bottom: .25em solid var(--color-accent);
+  padding-bottom: 0.067em;
+}
+
+nav li, 
+nav ul{
+  display: contents;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 4px 0;      /* 10px top/bottom, 0px left/right */
+  line-height: 1.1;
+  margin: 4px 0;
+  text-wrap: balance      /* 10px top/bottom, 0px left/right */
+}
+
+h1 {
+  font: 400%
 }
 
 p {
   margin: 5px 0;
+}
+
+html {
+  --color-accent: oklch(75% 0.15 350);
+  accent-color: var(--color-accent);
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr
+}
+
+label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  gap: 1em;
+}
+
+.projects {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+article {
+  display:grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  gap: 1em;
+}
+
+article h2 {
+  margin: 0;
 }
