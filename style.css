@@ -75,7 +75,7 @@ label {
   gap: 1em;
 }
 
-.projects article {
+.projects {
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
   gap: 1em;
@@ -88,16 +88,24 @@ article {
   gap: 1em;
 }
 
-.projects article h2 {
+article h2 {
   margin: 0;
 }
 
-
-.resume h1, h2, h3 {
-  color: var(--color-accent);
+.resume > h1 {
+    text-align: center;
+    color: var(--color-accent);
 }
 
-article {
+.resume > h2 {
+    text-align: center;
+}
+
+.resume > p {
+    text-align: center;
+}
+
+.resume article {
     margin-top: 2em;
     margin-bottom: 2em;
     padding: 1em;
@@ -105,28 +113,24 @@ article {
     border-bottom: 1px solid lightgray;
 }
 
-article h3 {
+.resume article h3 {
     color: var(--color-accent);
     font-size: 1.5em;
 }
 
-article section {
+.resume article section {
     margin-bottom: 1.5em;
 }
 
-article h4 {
+.resume article h4 {
     margin-bottom: 0.3em;
 }
 
-article li {
+.resume article li {
     margin-bottom: 0.5em;
     line-height: 1.5;
 }
 
-article a {
+.resume article a {
     color: var(--color-accent);
-}
-
-article time {
-    color: gray;
 }
