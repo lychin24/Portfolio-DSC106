@@ -1,6 +1,8 @@
 html {
   --color-accent: oklch(75% 0.15 350);
   accent-color: var(--color-accent);
+  --border-color: oklch(50% 10% 200 / 40%);
+
 }
 
 html {
@@ -21,7 +23,6 @@ nav{
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: var(--border-color);
-  --border-color: oklch(50% 10% 200 / 40%);
 }
 
 input, textarea, button, select {
