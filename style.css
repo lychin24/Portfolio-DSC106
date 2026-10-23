@@ -156,3 +156,18 @@ article h2 {
   grid-column: auto;
 }
 
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* four equal columns */
+  text-align: center;
+  margin: 0;
+}
+
+#profile-stats dt {
+  grid-row: 1;  /* all labels on the first row */
+}
+
+#profile-stats dd {
+  grid-row: 2;  /* all values on the second row */
+  margin: 0;    /* removes the default dd indent */
+}
