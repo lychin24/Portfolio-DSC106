@@ -158,16 +158,82 @@ article h2 {
 
 #profile-stats dl {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);  /* four equal columns */
+  grid-template-columns: repeat(4, 1fr);
   text-align: center;
   margin: 0;
 }
 
 #profile-stats dt {
-  grid-row: 1;  /* all labels on the first row */
+  grid-row: 1; 
 }
 
 #profile-stats dd {
-  grid-row: 2;  /* all values on the second row */
-  margin: 0;    /* removes the default dd indent */
+  grid-row: 2;
+  margin: 0;
+}
+
+.project-year {
+  color: gray;
+  margin: 0.5em 0 0;
+}
+
+.projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+  overflow: visible;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%; 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;    
+}
+
+.legend {
+  flex: 1;
+  margin: 1em;               
+  padding: 1em;              
+  border: 1px solid #ccc; 
+  border-radius: 0.5em;    
+  list-style: none;      
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+  gap: 1em; 
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+path {
+  cursor: pointer;
 }

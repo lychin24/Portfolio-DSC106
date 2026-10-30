@@ -13,7 +13,7 @@
     },
     {
         "title": "Predicting Internship Outcomes.",
-        "'year":"2025",
+        "year":"2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "An exploratory data science project analyzing internship placement outcomes based off various academic features, completed for UCSD's COGS108."
     },

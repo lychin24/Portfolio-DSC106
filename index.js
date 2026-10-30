@@ -20,3 +20,4 @@ if (profileStats) {
         </dl>
     `;
 }
+renderProjects(latestProjects, projectsContainer, 'h2');
