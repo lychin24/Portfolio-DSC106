@@ -3,9 +3,7 @@ const projects = await fetchJSON('./lib/projects.json');
 const latestProjects = projects.slice(0, 3);
 const projectsContainer = document.querySelector('.projects');
 
-for (const project of latestProjects) {
-  renderProjects(project, projectsContainer, 'h2');
-}
+renderProjects(latestProjects, projectsContainer, 'h2');
 
 const githubData = await fetchGitHubData('lychin24');
 
@@ -20,4 +18,3 @@ if (profileStats) {
         </dl>
     `;
 }
-renderProjects(latestProjects, projectsContainer, 'h2');
