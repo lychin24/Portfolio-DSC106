@@ -112,7 +112,6 @@ function renderPieChart(projectsGiven) {
   });
 }
 
-// Re-render the pie chart and legend whenever the search changes
 searchInput.addEventListener('input', (event) => {
   let filteredForPie = projects.filter((project) => {
     let values = Object.values(project).join('\n').toLowerCase();
