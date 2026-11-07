@@ -237,3 +237,86 @@ path {
 path {
   cursor: pointer;
 }
+
+#stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 0;
+}
+
+#stats dt {
+  grid-row: 1; 
+}
+
+#stats dd {
+  grid-row: 2;
+  margin: 0;
+}
+#scatter-chart {
+  display: block;
+}
+
+.gridlines line {
+  stroke: #ccc; 
+  stroke-opacity: 0.7;
+}
+
+.gridlines path {
+  display: none; 
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.25em 1em;
+  margin: 0;
+}
+
+dl.info dt {
+  font-size: 0.85em;
+  opacity: 0.7;
+}
+
+dl.info dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+.tooltip {
+  padding: 0.75em 1em;
+  background: color-mix(in oklch, canvas, canvasText 5%);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.2);
+  backdrop-filter: blur(4px);
+}
+
+dl.info {
+  /* ... other styles ... */
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
