@@ -1,74 +1,86 @@
 [
+      {
+        "title": "Interactive Bike Visualization",
+        "year": "2026",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "An interactive visualization showing bike routes and arrival/departure activity at stops, completed for DSC106",
+        "link": "https://lychin24.github.io/Bikewatching-Vis/"
+    },
     {
         "title": "Recipe Rating Predictor",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "An exploratory data science project analyzing Food.com recipes and user preferences, completed for UCSD's DSC 80."
+        "description": "An exploratory data science project analyzing Food.com recipes and user preferences, completed for UCSD's DSC 80.",
+        "link": "https://lychin24.github.io/Predicting-Recipe-Ratings/"
     },
     {
         "title": "Close Price Prediction Model",
         "year":"2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Complete project predicting property closing prices using house location and features, completed for IDXExchange Data Science Internship"
+        "description": "Complete project predicting property closing prices using house location and features, completed for IDXExchange Data Science Internship",
+        "link": "https://github.com/lychin24/IDX-Data-Science"
     },
     {
         "title": "Predicting Internship Outcomes.",
         "year":"2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "An exploratory data science project analyzing internship placement outcomes based off various academic features, completed for UCSD's COGS108."
+        "description": "An exploratory data science project analyzing internship placement outcomes based off various academic features, completed for UCSD's COGS108.",
+        "link": "https://github.com/lychin24/Predicting-Internship-Outcomes"
     },
     {
         "title": "Financial Math Tool",
         "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "A two-step mathematical reasoning pipeline built with DSPy that extracts numerical values and performs complex mathematical computations using large language models, completed for a summer internship with Edapt."
+        "description": "A two-step mathematical reasoning pipeline built with DSPy that extracts numerical values and performs complex mathematical computations using large language models, completed for a summer internship with Edapt.",
+        "link": "https://github.com/lychin24/Edapt-Internship"
     },
     {
         "title": "Accusantium molestias eligendi ex.",
         "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Reprehenderit repudiandae fuga assumenda doloremque, tempore quam voluptatum enim delectus ipsam facilis dolorum, odio, autem libero illo beatae! Quia, consectetur id. Illum optio exercitationem sunt quis, vero sed recusandae dicta!"
+        "description": "Reprehenderit repudiandae fuga assumenda doloremque, tempore quam voluptatum enim delectus ipsam facilis dolorum, odio, autem libero illo beatae! Quia, consectetur id. Illum optio exercitationem sunt quis, vero sed recusandae dicta!",
+        "link": ""
     },
     {
         "title": "Nobis vitae fugiat magnam!",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Impedit voluptatem placeat facilis, praesentium veritatis alias, amet nulla necessitatibus recusandae asperiores autem aut minus dicta. Nisi eligendi iure accusantium ad, impedit iste, quas hic, perferendis aut veritatis quis natus?"
+        "description": "Impedit voluptatem placeat facilis, praesentium veritatis alias, amet nulla necessitatibus recusandae asperiores autem aut minus dicta. Nisi eligendi iure accusantium ad, impedit iste, quas hic, perferendis aut veritatis quis natus?",
+        "link": ""
     },
     {
         "title": "Optio voluptate voluptas provident!",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Modi molestias mollitia labore, voluptates consectetur, velit cupiditate rem harum laborum officia a officiis ducimus suscipit, nisi libero doloribus molestiae quod. Asperiores molestiae facere repellendus. Neque harum natus aut ut!"
+        "description": "Modi molestias mollitia labore, voluptates consectetur, velit cupiditate rem harum laborum officia a officiis ducimus suscipit, nisi libero doloribus molestiae quod. Asperiores molestiae facere repellendus. Neque harum natus aut ut!",
+        "link": ""
     },
     {
         "title": "Rerum ut commodi recusandae!",
         "year": "2021",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dolorum modi aperiam ab dolores labore provident tempore reiciendis saepe libero laborum possimus consequatur aspernatur atque corrupti, aliquid eligendi amet non nisi distinctio fugiat enim nostrum voluptate. Eligendi, aliquid eius!"
+        "description": "Dolorum modi aperiam ab dolores labore provident tempore reiciendis saepe libero laborum possimus consequatur aspernatur atque corrupti, aliquid eligendi amet non nisi distinctio fugiat enim nostrum voluptate. Eligendi, aliquid eius!",
+        "link": ""
     },
     {
         "title": "Voluptatibus voluptatum aperiam cum.",
         "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Excepturi, incidunt? Earum consequuntur eius dicta tempore tempora asperiores voluptate quos? Aspernatur commodi exercitationem, voluptates voluptate quasi nesciunt eligendi dolores veniam quis, nostrum delectus quae eaque vitae repellat quibusdam rem?"
+        "description": "Excepturi, incidunt? Earum consequuntur eius dicta tempore tempora asperiores voluptate quos? Aspernatur commodi exercitationem, voluptates voluptate quasi nesciunt eligendi dolores veniam quis, nostrum delectus quae eaque vitae repellat quibusdam rem?",
+        "link": ""
     },
     {
         "title": "Aut magnam ad voluptatem.",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Sunt minus repellat asperiores distinctio quaerat adipisci explicabo eum? Natus harum cum sit earum, voluptatem recusandae eius atque deserunt id veniam nostrum odio quod ea exercitationem, aperiam temporibus perspiciatis placeat."
+        "description": "Sunt minus repellat asperiores distinctio quaerat adipisci explicabo eum? Natus harum cum sit earum, voluptatem recusandae eius atque deserunt id veniam nostrum odio quod ea exercitationem, aperiam temporibus perspiciatis placeat.",
+        "link": ""
     },
     {
         "title": "Vitae non impedit assumenda!",
         "year": "2020",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Officia similique ullam commodi deserunt debitis odio accusamus unde sapiente repellendus exercitationem id dignissimos autem expedita delectus nisi explicabo nemo neque tempora quo quos, recusandae minima. Dolore ea quibusdam ducimus."
-    },
-    {
-        "title": "Molestiae animi quos adipisci?",
-        "year": "2021",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quia libero quaerat nisi laborum perferendis deleniti at recusandae vero magni delectus aliquid illum repellendus incidunt, nemo dolore consequuntur, fugiat rem minima quibusdam natus corporis dolores ab. Ab, est soluta?"
+        "description": "Officia similique ullam commodi deserunt debitis odio accusamus unde sapiente repellendus exercitationem id dignissimos autem expedita delectus nisi explicabo nemo neque tempora quo quos, recusandae minima. Dolore ea quibusdam ducimus.",
+        "link": ""
     }
 ]
