@@ -1,4 +1,5 @@
 console.log("IT'S ALIVE")
+import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 
 function $$(selector, context=document) {
     return Array.from(context.querySelectorAll(selector))
@@ -135,3 +136,4 @@ export function renderProjects(projects, containerElement, headingLevel = 'h2') 
     containerElement.appendChild(article);
   }
 }
+
